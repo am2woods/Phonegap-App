@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+
+<html> 
+
+    <head> 
+       
+        <title>APP</title>
+        <link rel="stylesheet" href="themes/myTheme.css" />
+	   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+	   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	   <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+    </head> 
+
+    <body>
+
+        <div data-role="page" id="homepage" data-theme="d"> 
+
+    	   <div data-role="panel" id="mypanel" data-position="left" data-display="push" data-theme="e">
+
+			 <input type="search" name="search-mini" id="search-mini" value="Search" data-mini="true" />
+                <h4>Browse</h4>
+                <ul data-role="listview" data-inset="true"> 
+                    
+                    <li data-icon="video"><a data-transition="slide" href="#vidpage">Videos</a></li> 
+                    <li data-icon="video"><a data-transition="slide" href="#streampage ">Stream</a></li> 
+                    <li><a href="option3.html">Option 3</a></li> 
+                    <li><a href="option4.html">Option 4</a></li> 
+               </ul>  
+
+		    </div>
+
+            <div data-role="header">
+
+         	  <a href="#mypanel" class=" ui-btn-left ui-btn-corner-all ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow " title=" Panel "> Open Panel </a>
+
+         	  <h1>APP NAME</h1>
+
+            </div> 
+
+            <div data-role="content"> 
+
+               HOME PAGE STUFFS 
+
+            </div> 
+        </div>
+
+        <div data-role="page" id="vidpage" data-theme="d"> 
+
+        <div data-role="panel" id="mypanel1" data-position="left" data-display="push" data-theme="e">
+
+            <input type="search" name="search-mini" id="search-mini" value="Search" data-mini="true" />
+                <h4>Browse</h4>
+                <ul data-role="listview" data-inset="true"> 
+                    
+                    <li data-icon="video"><a data-transition="slide" href="#vidpage">Videos</a></li> 
+                    <li data-icon="video"><a data-transition="slide" href="#streampage">Stream</a></li> 
+                    <li><a href="option3.html">Option 3</a></li> 
+                    <li><a href="option4.html">Option 4</a></li> 
+               </ul>  
+
+            </div>
+
+            <div data-role="header">
+
+              <a href="#mypanel1" class=" ui-btn-left ui-btn-corner-all ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow " title=" Panel " data-form="ui-icon" data-role="button" role="button"> Open Panel </a>
+
+              <h1>VIDEOS</h1>
+
+            </div> 
+
+            <div data-role="content"> 
+
+               VIDEO STUFFS
+
+            </div>
+        </div>
+
+        <div data-role="page" id="streampage" data-theme="d"> 
+
+        <div data-role="panel" id="mypanel2" data-position="left" data-display="push" data-theme="e">
+
+            <input type="search" name="search-mini" id="search-mini" value="Search" data-mini="true" />
+                <h4>Browse</h4>
+                <ul data-role="listview" data-inset="true"> 
+                    
+                    <li data-icon="video"><a data-transition="slide" href="#vidpage">Videos</a></li> 
+                    <li data-icon="video"><a data-transition="slide" href="#streampage">Stream</a></li> 
+                    <li><a href="option3.html">Option 3</a></li> 
+                    <li><a href="option4.html">Option 4</a></li> 
+               </ul>  
+
+            </div>
+
+            <div data-role="header">
+
+              <a href="#mypanel2" class=" ui-btn-left ui-btn-corner-all ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow " title=" Panel " data-form="ui-icon" data-role="button" role="button"> Open Panel </a>
+
+              <h1>Stream</h1>
+
+            </div> 
+
+            <div data-role="content"> 
+
+               STREAM STUFFS
+
+            </div>
+        </div>
+
+    </body> 
+</html>

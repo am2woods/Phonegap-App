@@ -1,0 +1,218 @@
+<!DOCTYPE html> 
+
+<html> 
+
+    <head> 
+       
+        <title>APP</title>
+        <link rel="stylesheet" href="themes/myTheme.css" />
+	   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+	   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	   <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+       <script>
+            $(function(){
+                $( "[data-role='header'], [data-role='footer']" ).toolbar();
+            });
+        </script>
+
+        <style type="text/css">
+            .ui-icon-pokemon-icon {
+                background: url("./cus_icons/pokemon-icon.png") no-repeat rgba(0, 0, 0, 0.4) !important;
+                background-size: 32px 32px;
+                background-color: transparent;
+                -moz-border-radius: 0px;
+                -webkit-border-radius:0px;
+                border-radius:0px;
+                width: 32px  !important;
+                height: 32px  !important;
+                margin-top: -15px !important;
+                margin-left: -15px !important;
+            }
+
+            .ui-icon-borderlands-icon {
+                background: url("./cus_icons/borderlands-icon.png") no-repeat rgba(0, 0, 0, 0.4) !important;
+                background-size: 32px 32px;
+                background-color: transparent;
+                -moz-border-radius: 0px;
+                -webkit-border-radius:0px;
+                border-radius:0px;
+                width: 32px  !important;
+                height: 32px  !important;
+                margin-top: -15px !important;
+                margin-left: -15px !important;
+            }
+
+            .ui-icon-destiny-icon {
+                background: url("./cus_icons/destiny-icon.png") no-repeat rgba(0, 0, 0, 0.4) !important;
+                background-size: 32px 32px;
+                background-color: transparent;
+                -moz-border-radius: 0px;
+                -webkit-border-radius:0px;
+                border-radius:0px;
+                width: 32px  !important;
+                height: 32px  !important;
+                margin-top: -15px !important;
+                margin-left: -15px !important;
+            }
+
+            .transparentButton {
+                background-color: transparent !important;
+                border: 0 !important;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+        </style>
+
+
+    </head> 
+
+    <body>
+
+        <div data-role="header" data-position="fixed" data-id="foo" data-theme="d">
+
+            <a href="#mypanel" class=" ui-btn-left ui-btn-corner-all ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow " title=" Panel "> Open Panel </a>
+
+              <h1>APP NAME</h1>
+
+        </div><!--/header-->
+
+        <div data-role="page" id="homepage" data-theme="d"> 
+
+    	   <div data-role="panel" id="mypanel" data-position="left" data-display="push" data-theme="e">
+
+			 <input type="search" name="search-mini" id="search-mini" value="Search" data-mini="true" />
+                <h4>Browse</h4>
+                <ul data-role="listview" data-inset="true"> 
+                    
+                    <li data-icon="video"><a data-transition="slide" href="#vidpage">Videos</a></li> 
+                    <li data-icon="video"><a data-transition="slide" href="#streampage ">Stream</a></li> 
+                    <li><a href="option3.html">Option 3</a></li> 
+                    <li><a href="option4.html">Option 4</a></li> 
+               </ul>  
+
+		    </div> <!--/panel-->
+
+            <div data-role="content"> 
+
+               HOME PAGE STUFFS 
+
+            </div> <!--/content-->
+
+        </div> <!--/homepage-->
+
+        <div data-role="page" id="Destiny" data-theme="d"> 
+
+        <div data-role="panel" id="mypanel1" data-position="left" data-display="push" data-theme="e">
+
+            <input type="search" name="search-mini" id="search-mini" value="Search" data-mini="true" />
+                <h4>Browse</h4>
+                <ul data-role="listview" data-inset="true"> 
+                    
+                    <li data-icon="video"><a data-transition="slide" href="#vidpage">Videos</a></li> 
+                    <li data-icon="video"><a data-transition="slide" href="#streampage">Stream</a></li> 
+                    <li><a href="option3.html">Option 3</a></li> 
+                    <li><a href="option4.html">Option 4</a></li> 
+               </ul>  
+
+            </div><!--/panel-->
+
+            <div data-role="content"> 
+
+               Destiny STUFFS
+
+            </div> <!--/content-->
+
+        </div><!--/Destiny-->
+
+        <div data-role="page" id="Stream" data-theme="d"> 
+
+        <div data-role="panel" id="mypanel2" data-position="left" data-display="push" data-theme="e">
+
+            <input type="search" name="search-mini" id="search-mini" value="Search" data-mini="true" />
+                <h4>Browse</h4>
+                <ul data-role="listview" data-inset="true"> 
+                    
+                    <li data-icon="video"><a data-transition="slide" href="#vidpage">Videos</a></li> 
+                    <li data-icon="video"><a data-transition="slide" href="#streampage">Stream</a></li> 
+                    <li><a href="option3.html">Option 3</a></li> 
+                    <li><a href="option4.html">Option 4</a></li> 
+               </ul>  
+
+            </div> <!--/panel-->
+
+            <div data-role="content"> 
+
+               Stream STUFFS
+
+            </div> <!--/content-->
+
+        </div> <!--/streampage-->
+
+        <div data-role="page" id="Pokemon" data-theme="d"> 
+
+           <div data-role="panel" id="mypanel" data-position="left" data-display="push" data-theme="e">
+
+             <input type="search" name="search-mini" id="search-mini" value="Search" data-mini="true" />
+                <h4>Browse</h4>
+                <ul data-role="listview" data-inset="true"> 
+                    
+                    <li data-icon="video"><a data-transition="slide" href="#vidpage">Videos</a></li> 
+                    <li data-icon="video"><a data-transition="slide" href="#streampage ">Stream</a></li> 
+                    <li><a href="option3.html">Option 3</a></li> 
+                    <li><a href="option4.html">Option 4</a></li> 
+               </ul>  
+
+            </div> <!--/panel-->
+
+            <div data-role="content"> 
+
+               POKEMON STUFFS 
+
+            </div> <!--/content-->
+
+        </div> <!--/Pokemon-->
+
+        <div data-role="page" id="Borderlands" data-theme="d"> 
+
+           <div data-role="panel" id="mypanel" data-position="left" data-display="push" data-theme="e">
+
+             <input type="search" name="search-mini" id="search-mini" value="Search" data-mini="true" />
+                <h4>Browse</h4>
+                <ul data-role="listview" data-inset="true"> 
+                    
+                    <li data-icon="video"><a data-transition="slide" href="#vidpage">Videos</a></li> 
+                    <li data-icon="video"><a data-transition="slide" href="#streampage ">Stream</a></li> 
+                    <li><a href="option3.html">Option 3</a></li> 
+                    <li><a href="option4.html">Option 4</a></li> 
+               </ul>  
+
+            </div> <!--/panel-->
+
+            <div data-role="content"> 
+
+               Borderlands STUFFS 
+
+            </div> <!--/content-->
+
+        </div> <!--/homepage-->
+
+        <div data-role="footer" data-position="fixed" data-theme="e">
+            <div data-role="navbar">
+                <ul>
+                    <li><span class="ui-btn ui-icon-home ui-btn-icon-notext ui-icon-nodisc ui-corner-all transparentButton" style="position:relative;"></span><a href="#homepage">Home</a></li>
+
+                    <li><span class="ui-btn ui-icon-video ui-btn-icon-notext ui-icon-nodisc ui-corner-all transparentButton" style="position:relative;"></span><a href="#Stream">Home</a></li>
+
+                    <li><span class="ui-btn ui-icon-pokemon-icon ui-btn-icon-notext ui-icon-nodisc ui-corner-all transparentButton" style="position:relative;"><a href="#Pokemon">Home</a></span></li>
+
+                    <li><span class="ui-btn ui-icon-destiny-icon ui-btn-icon-notext ui-icon-nodisc ui-corner-all transparentButton" style="position:relative;"><a href="#Destiny">Home</a></span></li>
+                    
+                    <li><span class="ui-btn ui-icon-borderlands-icon ui-btn-icon-notext ui-icon-nodisc ui-corner-all transparentButton" style="position:relative;"><a href="#Borderland">Home</a></span></li>
+                </ul>
+            </div><!-- /navbar -->
+        <div><!--/footer-->
+
+    </body> 
+</html>
